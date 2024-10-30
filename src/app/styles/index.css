@@ -1,0 +1,72 @@
+@import "./reset";
+@import "./variables/global";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+button:focus-visible,
+input:focus-visible,
+a:focus-visible {
+  box-shadow: var(--focus-brand-500);
+  outline: none;
+}
+body {
+  font: var(--font-base);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--secondary-color-900);
+  background-color: var(--primary-bg-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  margin: 0;
+}
+h1 {
+  font-size: 36px;
+  line-height: 43.2px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 19.2px;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 17.6px;
+}
+
+h6 {
+  font-size: 12px;
+  line-height: 14.4px;
+}
+
+p {
+  margin: 0;
+}
+
+.link {
+  color: var(--c-brand-500);
+}
+.link:hover {
+  text-decoration: underline;
+  color: var(--c-brand-600);
+}

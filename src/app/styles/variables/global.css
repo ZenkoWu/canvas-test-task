@@ -1,0 +1,52 @@
+:root {
+  --c-brand-25: #f6f8ff;
+  --c-brand-50: #eff4ff;
+  --c-brand-100: #d1dfff;
+  --c-brand-200: #b2ccff;
+  --c-brand-300: #83adff;
+  --c-brand-400: #538aff;
+  --c-brand-500: #2871ff;
+  --c-brand-600: #155eef;
+  --c-brand-700: #004eeb;
+
+  --secondary-color-25: #fcfcfd;
+  --secondary-color-50: #f9fafb;
+  --secondary-color-100: #f3f4f7;
+  --secondary-color-200: #eaecf0;
+  --secondary-color-300: #d0d5dd;
+  --secondary-color-400: #98a1b3;
+  --secondary-color-500: #667085;
+  --secondary-color-600: #485367;
+  --secondary-color-700: #344054;
+  --secondary-color-800: #1d2939;
+  --secondary-color-900: #101018;
+  --secondary-color-950: #0a0a0a;
+
+  --focus-brand-500: 0px 0px 0px 4px #006cef33, 0px 1px 2px 0px #0010180d;
+
+  --modal-z-index: 10;
+
+  --shadow-xsmall: 0px 1px 2px 0px #6670850d;
+  --shadow-small: 0px 1px 2px 0px #6670851a;
+  --shadow-medium: 0px 0px 8px 0px #7f89ac26;
+  --shadow-heavy: 0px 4px 8px 0px #6670851a;
+  --shadow-pop-up: 0px 8px 16px 0px #98a2b333;
+
+  --font-family: "Inter", sans-serif;
+  --font-size-xsmall: 12px;
+  --line-height-xsmall: 16.8px;
+  --font-xs: var(--font-size-xsmall) / var(--line-height-xsmall)
+    var(--font-family);
+
+  --font-size-small: 14px;
+  --line-height-small: 21px;
+  --font-small: var(--font-size-small) / var(--line-height-small)
+    var(--font-family);
+
+  --font-size-base: 16px;
+  --line-height-base: 24px;
+  --font-base: var(--font-size-base) / var(--line-height-base)
+    var(--font-family);
+
+  --font-size-m: 18px;
+}
