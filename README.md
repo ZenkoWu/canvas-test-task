@@ -1,3 +1,4 @@
+Ссылка на демо - https://canvas-test-task-mfiu.vercel.app/
 #Тестовое задание
 
 ## Описание приложения
